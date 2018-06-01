@@ -1,0 +1,2 @@
+// declare foo
+void studentMain();
