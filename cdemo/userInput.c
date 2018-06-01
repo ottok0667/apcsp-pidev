@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 
   if (argc != 3)
   {
-    printf("Did not input valid range of radii. Input a radius\n");
+    printf("Did not input valid range of radii. Input two radii\n");
   while (1)
   {
     fgets(smallString, 256, stdin);
@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
     printf("area: %f\n\n", area);
   }
   }
-
+  else {
   int arg1;
 
   int found = sscanf(argv[1], "%d", &arg1);
@@ -81,5 +81,5 @@ int main(int argc, char* argv[])
     area = areaOfCircle(i);
     printf("area: %f\n\n", area);
   }
-
+}
 }
